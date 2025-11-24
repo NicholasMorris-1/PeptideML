@@ -1,0 +1,4 @@
+*.png
+*.venv/
+catboost_info/
+test.py
