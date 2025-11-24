@@ -13,5 +13,30 @@ Please note: I **DID NOT** collect the data myself nor did contribute to the ass
 
 The following instructions use pip and python virtual environments. If you wish to use an alternative package/environment manager (like conda), I am sure the steps are similiar. 
 
+clone and enter the repo: 
 
- 
+``` bash
+
+git clone https://github.com/NicholasMorris-1/PeptideML.git
+cd PeptideML 
+
+```
+now create a virtual env and install the requirements. You do not have to use virtual envrionments but it is highly recommended. 
+
+``` bash
+
+python3 -m venv .venv
+source .venv/bin/activate
+pip -r install requirements.txt
+
+``` 
+
+Then you can run the script from the src directory
+
+``` bash
+
+cd src/
+python main.py 
+
+```
+

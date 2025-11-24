@@ -24,7 +24,7 @@ warnings.filterwarnings('ignore')
 # DATA LOADING AND PREPROCESSING
 # =============================================================================
 
-df = pd.read_csv('peptide_data.csv')
+df = pd.read_csv('../data/peptide_data.csv')
 
 df['pre-chain'] = df['pre-chain'].fillna("").astype(str)
 df['amino_acid'] = df['amino_acid'].fillna("").astype(str)
