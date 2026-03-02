@@ -27,7 +27,7 @@ now create a virtual env and install the requirements. You do not have to use vi
 
 python3 -m venv .venv
 source .venv/bin/activate
-pip -r install requirements.txt
+pip install -r requirements.txt
 
 ``` 
 
